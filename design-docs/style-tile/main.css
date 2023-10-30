@@ -1,0 +1,309 @@
+/***********************************************************************/
+/** Global Styles **/
+/***********************************************************************/
+/***********************************/
+/** Body Styles **/
+/***********************************/
+body {
+    color: #222;
+    background-color: #e1caae;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Palanquin', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/***********************************/
+/** Header Styles **/
+/***********************************/
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 3%
+}
+
+header h1 {
+    font-size: 1.5em;
+    font-family: 'Croissant One', serif;
+}
+
+header p {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.client-name{
+    padding-right: 10%;
+}
+
+/***********************************************************************/
+/** Logo Styles **/
+/***********************************************************************/
+#logo {   
+    width: 30.6%;
+    padding: 2%;
+}
+
+#logo .frame {
+    border: 0.3em solid #4e2c1e;
+    background: #c38d58;
+    height: 100%;
+    padding:.5em;
+}
+
+#logo #logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+/***********************************************************************/
+/** Text Design Section **/
+/***********************************************************************/
+
+#text-styles {
+    width: 61.4%;
+    margin: 0;
+    padding: 2%;
+}
+
+#text-styles .frame {
+    border: 0.3em solid #4e2c1e;
+    background: #c38d58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    padding:.5em;
+}
+
+#text-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4ECE1;
+    width: 100%;
+    height: 100%;
+}
+
+#text-flex h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.5em;   
+}
+
+#text-flex h2,
+h3 {
+    font-family: 'Nixie One', serif;
+}
+
+#text-flex span {
+    margin: 0 3%;
+}
+
+#demo-paragraph {
+    font-size: 1.3em;
+    margin: 1%;
+}
+
+#fonts {
+    width: 100%;
+    text-align: center;
+}
+
+#font-1 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+#font-2 {
+    font-family: 'Nixie One', serif;
+}
+
+#adjectives {
+    list-style: none;
+    width: 96%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+#adjectives .frame {
+    border: 0.3em solid #4e2c1e;
+    background: #c38d58;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5em;
+}
+
+#adjectives ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F4ECE1;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+#adjectives li {
+    font-size: 1.25em;
+    padding: 0.5em;
+    font-family: 'Nixie One', serif;
+    font-weight: bold;
+}
+
+/***********************************************************************/
+/**Color Swatch Section**/
+/***********************************************************************/
+#color-swatches {
+    padding: 2em;
+    margin: 0;
+    width: 96%;
+}
+
+#color-swatches .frame {
+    border: 0.3em solid #4e2c1e;
+    background: #c38d58;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#color-swatches .swatch-wrapper {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: .5em;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.polaroid {
+    background: #fff;
+    padding: 1rem;
+    width: fit-content;
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+
+}
+
+#color-swatches ul {
+    background: #F4ECE1;
+    list-style-type: none;
+    margin: 0.5%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+#color-swatches li {
+    color: black;
+    border: solid black 3px;
+    height: 8em;
+    width: 8em;
+    box-sizing: border-box;
+    margin: .33em;
+    font-size: .75em;
+}
+
+/***********************************/
+/**Color Swatches**/
+/***********************************/
+.polaroid #color-1 {
+    background-color: #4e2c1e;
+}
+
+#color-swatches #color-2 {
+    background-color: #9dbf9e;
+}
+
+#color-swatches #color-3 {
+    background-color: #a27f64;
+}
+
+#color-swatches #color-4 {
+    background-color: #c38d58;
+}
+
+#color-swatches #color-5 {
+    background-color: #e1caae;
+}
+
+#color-swatches #color-6 {
+    background-color: #F4ECE1;
+}
+
+/************************************/
+/************************************/
+
+/***********************************************************************/
+/** Design Elements Section **/
+/***********************************************************************/
+#design-influences {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#design-influences .images {
+    display: flex;
+    margin: 1%;
+
+
+}
+
+#design-influences .frame {
+    border: 0.3em solid #4e2c1e;
+    background: #c38d58;
+    padding: .5em;
+    margin: 1%;
+    display:flex;
+    justify-content: center;
+}
+
+#design-influences #ref-pic {
+    height: 100%;
+    width: 100%;
+    border: solid #4e2c1e 3px;}
+
+
+/***********************************/
+/** Footer Styles **/
+/***********************************/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 3%
+}
+
+footer h1 {
+    font-size: 1.5em;
+    font-family: 'Croissant One', serif;
+}
+
+footer p {
+    font-family: "Josefin Sans", sans-serif;
+}
